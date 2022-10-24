@@ -1,0 +1,9 @@
+---
+scoreboardIp: play.server.net
+banned-commands:
+- /kill
+death-respawn-inMap: true
+join-and-respawn-protected: true
+death-attack-message: '&e{PLAYER} &fwas killed by &c{KILLER}'
+death-void-message: '&c{PLAYER} &ffall into void'
+...
