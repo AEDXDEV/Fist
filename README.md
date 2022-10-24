@@ -1,5 +1,7 @@
+<div align="center">
 <h1>Fist</h1> <h3> Best MiniGames for PocketMine</h3>
 <img alt="Chest" src="https://github.com/AEDXDEV/Fist/blob/main/icon.png" width="256" height="256"></img>
+</div>
 
 # Create a Arena
 - Teleport to the world who need make an arena in it.
