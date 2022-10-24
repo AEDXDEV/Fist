@@ -1,0 +1,11 @@
+name: Fist
+api: 4.0.0
+version: 1.0
+main: AEDXDEV\Fist\Main
+author: AEDXDEV
+
+permissions:
+  fist.acmd:
+    default: op 
+  fist.pcmd:
+    default: true
