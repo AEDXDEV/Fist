@@ -196,7 +196,7 @@ class FistGame
 		$player->getCraftingGrid()->clearAll();
 		$player->getEffects()->clear();
 		
-		$player->getInventory()->setItem(0, ItemFactory::getInstance()->get(ItemIds::COOKED_BEEF, 0, 64));
+		$player->getInventory()->setItem(4, VanillaItems::STEAK()->setCount(64));
 		
 		$this->players[$player->getName()] = $player;
 		
@@ -225,7 +225,7 @@ class FistGame
 		$player->getCraftingGrid()->clearAll();
 		$player->getEffects()->clear();
 		$player->setGamemode($this->plugin->getServer()->getGamemode());
-		//$player->setGamemode(GameMode::SURVIVAL());
+		
 		$player->setHealth(20);
 		$player->getHungerManager()->setFood(20);
 		
